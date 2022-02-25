@@ -1,0 +1,5 @@
+2022-02-25 11:30:17.075 INFO Train - <module>: MongoDB database connected successfully
+2022-02-25 11:30:17.076 INFO Train - <module>: collected all folders in known_people folder
+2022-02-25 11:30:17.076 DEBUG Train - <module>: []
+2022-02-25 11:30:17.076 INFO Train - <module>: collected all images from all folders in known_people folder
+2022-02-25 11:30:17.076 DEBUG Train - <module>: []
