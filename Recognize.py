@@ -6,6 +6,8 @@ import uuid
 from datetime import datetime
 import datetime
 from tkinter import *
+import HandGestures as hg
+# import "home/vikasjoshis001/Desktop/Handtracking/HandGestures"
 
 import cv2
 import face_recognition
@@ -21,13 +23,15 @@ def isAccepted():
 
 # Function to click images for registering user...
 def clickImages():
+    uuid_name = face_name+'-'+str(datetime.datetime.now())
+    print(uuid_name)
     train_images = Train.Train()
-    os.mkdir(IMAGES_PATH + "/" + face_name)
+    os.mkdir(IMAGES_PATH + "/" + uuid_name)
     cap = cv2.VideoCapture(0)
     # time.sleep(2)
     for images in range(number_of_images):
-        success, img = cap.read();
-        image_name = os.path.join(IMAGES_PATH, face_name, face_name + '.' + '{}.jpeg'.format(str(uuid.uuid1())))
+        success, img = cap.read()
+        image_name = os.path.join(IMAGES_PATH, uuid_name, face_name + '.' + '{}.jpeg'.format(str(uuid.uuid1())))
         cv2.imwrite(image_name, img)
         cv2.imshow('image', img)
         time.sleep(1)
@@ -117,6 +121,13 @@ def recognizeFace():
 
         videoStream(frame, name)
         temp = name
+        if temp == 'Unknown':
+            print("Face is not authenticated...")
+        elif len(temp) == 0:
+            print("Unable to detect face...")
+        else:
+            gesture.handGestures(frame)
+
         temptime = datetime.datetime.now()
         temp_encodings = frame
         root.update()
@@ -190,11 +201,13 @@ if __name__ == "__main__":
     old_face_encodings = []
 
     # Variables for registering face...
-    register_face = True
-    print('Enter your name?')
-    face_name = input()
+    register_face = False
     if register_face:
+        # print('Enter your name?')
+        # face_name = input()
+        face_name = "Vikas"
         clickImages()
 
     # clickImages()
+    gesture = hg.HandGesture()
     recognizeFace()

@@ -1,0 +1,160 @@
+2022-03-01 13:03:00.636 INFO train - <module>: MongoDB database connected successfully
+2022-03-01 13:03:00.637 INFO train - <module>: collected all folders in known_people folder
+2022-03-01 13:03:00.637 DEBUG train - <module>: ['tyrion lannister', 'denerys targeryan', 'cersie lannister', 'king in the north', 'arya stark']
+2022-03-01 13:03:00.638 INFO train - <module>: collected all images from all folders in known_people folder
+2022-03-01 13:03:00.638 DEBUG train - <module>: [['/home/vikasjoshis001/Desktop/Handtracking/FaceRecognition/images_to_train/tyrion lannister/images5.jpeg', '/home/vikasjoshis001/Desktop/Handtracking/FaceRecognition/images_to_train/tyrion lannister/index3.jpeg', '/home/vikasjoshis001/Desktop/Handtracking/FaceRecognition/images_to_train/tyrion lannister/index1.jpeg', '/home/vikasjoshis001/Desktop/Handtracking/FaceRecognition/images_to_train/tyrion lannister/index2.jpeg', '/home/vikasjoshis001/Desktop/Handtracking/FaceRecognition/images_to_train/tyrion lannister/index4.jpeg'], ['/home/vikasjoshis001/Desktop/Handtracking/FaceRecognition/images_to_train/denerys targeryan/index3.jpeg', '/home/vikasjoshis001/Desktop/Handtracking/FaceRecognition/images_to_train/denerys targeryan/index5.jpeg', '/home/vikasjoshis001/Desktop/Handtracking/FaceRecognition/images_to_train/denerys targeryan/index1.jpeg', '/home/vikasjoshis001/Desktop/Handtracking/FaceRecognition/images_to_train/denerys targeryan/index2.jpeg', '/home/vikasjoshis001/Desktop/Handtracking/FaceRecognition/images_to_train/denerys targeryan/index4.jpeg'], ['/home/vikasjoshis001/Desktop/Handtracking/FaceRecognition/images_to_train/cersie lannister/index3.jpeg', '/home/vikasjoshis001/Desktop/Handtracking/FaceRecognition/images_to_train/cersie lannister/index5.jpeg', '/home/vikasjoshis001/Desktop/Handtracking/FaceRecognition/images_to_train/cersie lannister/index2.jpeg', '/home/vikasjoshis001/Desktop/Handtracking/FaceRecognition/images_to_train/cersie lannister/index4.jpeg'], ['/home/vikasjoshis001/Desktop/Handtracking/FaceRecognition/images_to_train/king in the north/index.jpeg', '/home/vikasjoshis001/Desktop/Handtracking/FaceRecognition/images_to_train/king in the north/index3.jpeg', '/home/vikasjoshis001/Desktop/Handtracking/FaceRecognition/images_to_train/king in the north/index5.jpeg', '/home/vikasjoshis001/Desktop/Handtracking/FaceRecognition/images_to_train/king in the north/index2.jpeg', '/home/vikasjoshis001/Desktop/Handtracking/FaceRecognition/images_to_train/king in the north/index4.jpeg'], ['/home/vikasjoshis001/Desktop/Handtracking/FaceRecognition/images_to_train/arya stark/index.jpeg', '/home/vikasjoshis001/Desktop/Handtracking/FaceRecognition/images_to_train/arya stark/index3.jpeg', '/home/vikasjoshis001/Desktop/Handtracking/FaceRecognition/images_to_train/arya stark/index5.jpeg', '/home/vikasjoshis001/Desktop/Handtracking/FaceRecognition/images_to_train/arya stark/index2.jpeg', '/home/vikasjoshis001/Desktop/Handtracking/FaceRecognition/images_to_train/arya stark/images4.jpeg']]
+2022-03-01 13:03:00.638 INFO train - <module>: started loading images and finding their encodings
+2022-03-01 13:03:00.638 INFO train - <module>: loading image
+2022-03-01 13:03:00.644 DEBUG train - <module>: /home/vikasjoshis001/Desktop/Handtracking/FaceRecognition/images_to_train/tyrion lannister/images5.jpeg
+2022-03-01 13:03:00.644 INFO train - <module>: loading image done
+2022-03-01 13:03:00.644 INFO train - <module>: finding the encoding of image
+2022-03-01 13:03:00.711 INFO train - <module>: finding encoding of image is done
+2022-03-01 13:03:00.711 INFO train - <module>: loading image
+2022-03-01 13:03:00.712 DEBUG train - <module>: /home/vikasjoshis001/Desktop/Handtracking/FaceRecognition/images_to_train/tyrion lannister/index3.jpeg
+2022-03-01 13:03:00.712 INFO train - <module>: loading image done
+2022-03-01 13:03:00.712 INFO train - <module>: finding the encoding of image
+2022-03-01 13:03:00.776 INFO train - <module>: finding encoding of image is done
+2022-03-01 13:03:00.777 INFO train - <module>: loading image
+2022-03-01 13:03:00.777 DEBUG train - <module>: /home/vikasjoshis001/Desktop/Handtracking/FaceRecognition/images_to_train/tyrion lannister/index1.jpeg
+2022-03-01 13:03:00.777 INFO train - <module>: loading image done
+2022-03-01 13:03:00.777 INFO train - <module>: finding the encoding of image
+2022-03-01 13:03:00.841 INFO train - <module>: finding encoding of image is done
+2022-03-01 13:03:00.841 INFO train - <module>: loading image
+2022-03-01 13:03:00.842 DEBUG train - <module>: /home/vikasjoshis001/Desktop/Handtracking/FaceRecognition/images_to_train/tyrion lannister/index2.jpeg
+2022-03-01 13:03:00.842 INFO train - <module>: loading image done
+2022-03-01 13:03:00.842 INFO train - <module>: finding the encoding of image
+2022-03-01 13:03:00.909 INFO train - <module>: finding encoding of image is done
+2022-03-01 13:03:00.910 INFO train - <module>: loading image
+2022-03-01 13:03:00.910 DEBUG train - <module>: /home/vikasjoshis001/Desktop/Handtracking/FaceRecognition/images_to_train/tyrion lannister/index4.jpeg
+2022-03-01 13:03:00.910 INFO train - <module>: loading image done
+2022-03-01 13:03:00.910 INFO train - <module>: finding the encoding of image
+2022-03-01 13:03:00.974 INFO train - <module>: finding encoding of image is done
+2022-03-01 13:03:00.974 INFO train - <module>: getting average of encodings of loaded images
+2022-03-01 13:03:00.974 INFO train - <module>: done with getting average encodings
+2022-03-01 13:03:00.974 INFO train - <module>: storing the name and encoding in local dictionary
+2022-03-01 13:03:00.974 INFO train - <module>: stored name and encodes in local dictionary
+2022-03-01 13:03:00.974 INFO train - <module>: storing the name and encodings in mongodb
+2022-03-01 13:03:00.976 INFO train - <module>: stored all name and encodes in mongodb
+2022-03-01 13:03:00.976 INFO train - <module>: started loading images and finding their encodings
+2022-03-01 13:03:00.976 INFO train - <module>: loading image
+2022-03-01 13:03:00.976 DEBUG train - <module>: /home/vikasjoshis001/Desktop/Handtracking/FaceRecognition/images_to_train/denerys targeryan/index3.jpeg
+2022-03-01 13:03:00.977 INFO train - <module>: loading image done
+2022-03-01 13:03:00.977 INFO train - <module>: finding the encoding of image
+2022-03-01 13:03:01.041 INFO train - <module>: finding encoding of image is done
+2022-03-01 13:03:01.041 INFO train - <module>: loading image
+2022-03-01 13:03:01.042 DEBUG train - <module>: /home/vikasjoshis001/Desktop/Handtracking/FaceRecognition/images_to_train/denerys targeryan/index5.jpeg
+2022-03-01 13:03:01.042 INFO train - <module>: loading image done
+2022-03-01 13:03:01.042 INFO train - <module>: finding the encoding of image
+2022-03-01 13:03:01.111 INFO train - <module>: finding encoding of image is done
+2022-03-01 13:03:01.111 INFO train - <module>: loading image
+2022-03-01 13:03:01.112 DEBUG train - <module>: /home/vikasjoshis001/Desktop/Handtracking/FaceRecognition/images_to_train/denerys targeryan/index1.jpeg
+2022-03-01 13:03:01.112 INFO train - <module>: loading image done
+2022-03-01 13:03:01.112 INFO train - <module>: finding the encoding of image
+2022-03-01 13:03:01.178 INFO train - <module>: finding encoding of image is done
+2022-03-01 13:03:01.178 INFO train - <module>: loading image
+2022-03-01 13:03:01.179 DEBUG train - <module>: /home/vikasjoshis001/Desktop/Handtracking/FaceRecognition/images_to_train/denerys targeryan/index2.jpeg
+2022-03-01 13:03:01.179 INFO train - <module>: loading image done
+2022-03-01 13:03:01.179 INFO train - <module>: finding the encoding of image
+2022-03-01 13:03:01.245 INFO train - <module>: finding encoding of image is done
+2022-03-01 13:03:01.245 INFO train - <module>: loading image
+2022-03-01 13:03:01.246 DEBUG train - <module>: /home/vikasjoshis001/Desktop/Handtracking/FaceRecognition/images_to_train/denerys targeryan/index4.jpeg
+2022-03-01 13:03:01.246 INFO train - <module>: loading image done
+2022-03-01 13:03:01.246 INFO train - <module>: finding the encoding of image
+2022-03-01 13:03:01.310 INFO train - <module>: finding encoding of image is done
+2022-03-01 13:03:01.310 INFO train - <module>: getting average of encodings of loaded images
+2022-03-01 13:03:01.310 INFO train - <module>: done with getting average encodings
+2022-03-01 13:03:01.310 INFO train - <module>: storing the name and encoding in local dictionary
+2022-03-01 13:03:01.310 INFO train - <module>: stored name and encodes in local dictionary
+2022-03-01 13:03:01.310 INFO train - <module>: storing the name and encodings in mongodb
+2022-03-01 13:03:01.311 INFO train - <module>: stored all name and encodes in mongodb
+2022-03-01 13:03:01.311 INFO train - <module>: started loading images and finding their encodings
+2022-03-01 13:03:01.311 INFO train - <module>: loading image
+2022-03-01 13:03:01.312 DEBUG train - <module>: /home/vikasjoshis001/Desktop/Handtracking/FaceRecognition/images_to_train/cersie lannister/index3.jpeg
+2022-03-01 13:03:01.312 INFO train - <module>: loading image done
+2022-03-01 13:03:01.312 INFO train - <module>: finding the encoding of image
+2022-03-01 13:03:01.375 INFO train - <module>: finding encoding of image is done
+2022-03-01 13:03:01.375 INFO train - <module>: loading image
+2022-03-01 13:03:01.376 DEBUG train - <module>: /home/vikasjoshis001/Desktop/Handtracking/FaceRecognition/images_to_train/cersie lannister/index5.jpeg
+2022-03-01 13:03:01.376 INFO train - <module>: loading image done
+2022-03-01 13:03:01.376 INFO train - <module>: finding the encoding of image
+2022-03-01 13:03:01.439 INFO train - <module>: finding encoding of image is done
+2022-03-01 13:03:01.439 INFO train - <module>: loading image
+2022-03-01 13:03:01.440 DEBUG train - <module>: /home/vikasjoshis001/Desktop/Handtracking/FaceRecognition/images_to_train/cersie lannister/index2.jpeg
+2022-03-01 13:03:01.440 INFO train - <module>: loading image done
+2022-03-01 13:03:01.440 INFO train - <module>: finding the encoding of image
+2022-03-01 13:03:01.507 INFO train - <module>: finding encoding of image is done
+2022-03-01 13:03:01.507 INFO train - <module>: loading image
+2022-03-01 13:03:01.508 DEBUG train - <module>: /home/vikasjoshis001/Desktop/Handtracking/FaceRecognition/images_to_train/cersie lannister/index4.jpeg
+2022-03-01 13:03:01.508 INFO train - <module>: loading image done
+2022-03-01 13:03:01.508 INFO train - <module>: finding the encoding of image
+2022-03-01 13:03:01.573 INFO train - <module>: finding encoding of image is done
+2022-03-01 13:03:01.573 INFO train - <module>: getting average of encodings of loaded images
+2022-03-01 13:03:01.573 INFO train - <module>: done with getting average encodings
+2022-03-01 13:03:01.573 INFO train - <module>: storing the name and encoding in local dictionary
+2022-03-01 13:03:01.573 INFO train - <module>: stored name and encodes in local dictionary
+2022-03-01 13:03:01.573 INFO train - <module>: storing the name and encodings in mongodb
+2022-03-01 13:03:01.574 INFO train - <module>: stored all name and encodes in mongodb
+2022-03-01 13:03:01.574 INFO train - <module>: started loading images and finding their encodings
+2022-03-01 13:03:01.574 INFO train - <module>: loading image
+2022-03-01 13:03:01.575 DEBUG train - <module>: /home/vikasjoshis001/Desktop/Handtracking/FaceRecognition/images_to_train/king in the north/index.jpeg
+2022-03-01 13:03:01.575 INFO train - <module>: loading image done
+2022-03-01 13:03:01.575 INFO train - <module>: finding the encoding of image
+2022-03-01 13:03:01.640 INFO train - <module>: finding encoding of image is done
+2022-03-01 13:03:01.640 INFO train - <module>: loading image
+2022-03-01 13:03:01.640 DEBUG train - <module>: /home/vikasjoshis001/Desktop/Handtracking/FaceRecognition/images_to_train/king in the north/index3.jpeg
+2022-03-01 13:03:01.640 INFO train - <module>: loading image done
+2022-03-01 13:03:01.641 INFO train - <module>: finding the encoding of image
+2022-03-01 13:03:01.707 INFO train - <module>: finding encoding of image is done
+2022-03-01 13:03:01.707 INFO train - <module>: loading image
+2022-03-01 13:03:01.707 DEBUG train - <module>: /home/vikasjoshis001/Desktop/Handtracking/FaceRecognition/images_to_train/king in the north/index5.jpeg
+2022-03-01 13:03:01.707 INFO train - <module>: loading image done
+2022-03-01 13:03:01.707 INFO train - <module>: finding the encoding of image
+2022-03-01 13:03:01.772 INFO train - <module>: finding encoding of image is done
+2022-03-01 13:03:01.773 INFO train - <module>: loading image
+2022-03-01 13:03:01.773 DEBUG train - <module>: /home/vikasjoshis001/Desktop/Handtracking/FaceRecognition/images_to_train/king in the north/index2.jpeg
+2022-03-01 13:03:01.773 INFO train - <module>: loading image done
+2022-03-01 13:03:01.773 INFO train - <module>: finding the encoding of image
+2022-03-01 13:03:01.838 INFO train - <module>: finding encoding of image is done
+2022-03-01 13:03:01.838 INFO train - <module>: loading image
+2022-03-01 13:03:01.839 DEBUG train - <module>: /home/vikasjoshis001/Desktop/Handtracking/FaceRecognition/images_to_train/king in the north/index4.jpeg
+2022-03-01 13:03:01.839 INFO train - <module>: loading image done
+2022-03-01 13:03:01.839 INFO train - <module>: finding the encoding of image
+2022-03-01 13:03:01.905 INFO train - <module>: finding encoding of image is done
+2022-03-01 13:03:01.905 INFO train - <module>: getting average of encodings of loaded images
+2022-03-01 13:03:01.906 INFO train - <module>: done with getting average encodings
+2022-03-01 13:03:01.906 INFO train - <module>: storing the name and encoding in local dictionary
+2022-03-01 13:03:01.906 INFO train - <module>: stored name and encodes in local dictionary
+2022-03-01 13:03:01.906 INFO train - <module>: storing the name and encodings in mongodb
+2022-03-01 13:03:01.906 INFO train - <module>: stored all name and encodes in mongodb
+2022-03-01 13:03:01.906 INFO train - <module>: started loading images and finding their encodings
+2022-03-01 13:03:01.907 INFO train - <module>: loading image
+2022-03-01 13:03:01.907 DEBUG train - <module>: /home/vikasjoshis001/Desktop/Handtracking/FaceRecognition/images_to_train/arya stark/index.jpeg
+2022-03-01 13:03:01.907 INFO train - <module>: loading image done
+2022-03-01 13:03:01.907 INFO train - <module>: finding the encoding of image
+2022-03-01 13:03:01.974 INFO train - <module>: finding encoding of image is done
+2022-03-01 13:03:01.974 INFO train - <module>: loading image
+2022-03-01 13:03:01.975 DEBUG train - <module>: /home/vikasjoshis001/Desktop/Handtracking/FaceRecognition/images_to_train/arya stark/index3.jpeg
+2022-03-01 13:03:01.975 INFO train - <module>: loading image done
+2022-03-01 13:03:01.975 INFO train - <module>: finding the encoding of image
+2022-03-01 13:03:02.039 INFO train - <module>: finding encoding of image is done
+2022-03-01 13:03:02.039 INFO train - <module>: loading image
+2022-03-01 13:03:02.040 DEBUG train - <module>: /home/vikasjoshis001/Desktop/Handtracking/FaceRecognition/images_to_train/arya stark/index5.jpeg
+2022-03-01 13:03:02.040 INFO train - <module>: loading image done
+2022-03-01 13:03:02.040 INFO train - <module>: finding the encoding of image
+2022-03-01 13:03:02.107 INFO train - <module>: finding encoding of image is done
+2022-03-01 13:03:02.107 INFO train - <module>: loading image
+2022-03-01 13:03:02.107 DEBUG train - <module>: /home/vikasjoshis001/Desktop/Handtracking/FaceRecognition/images_to_train/arya stark/index2.jpeg
+2022-03-01 13:03:02.107 INFO train - <module>: loading image done
+2022-03-01 13:03:02.107 INFO train - <module>: finding the encoding of image
+2022-03-01 13:03:02.172 INFO train - <module>: finding encoding of image is done
+2022-03-01 13:03:02.172 INFO train - <module>: loading image
+2022-03-01 13:03:02.173 DEBUG train - <module>: /home/vikasjoshis001/Desktop/Handtracking/FaceRecognition/images_to_train/arya stark/images4.jpeg
+2022-03-01 13:03:02.173 INFO train - <module>: loading image done
+2022-03-01 13:03:02.173 INFO train - <module>: finding the encoding of image
+2022-03-01 13:03:02.237 INFO train - <module>: finding encoding of image is done
+2022-03-01 13:03:02.237 INFO train - <module>: getting average of encodings of loaded images
+2022-03-01 13:03:02.237 INFO train - <module>: done with getting average encodings
+2022-03-01 13:03:02.237 INFO train - <module>: storing the name and encoding in local dictionary
+2022-03-01 13:03:02.237 INFO train - <module>: stored name and encodes in local dictionary
+2022-03-01 13:03:02.237 INFO train - <module>: storing the name and encodings in mongodb
+2022-03-01 13:03:02.238 INFO train - <module>: stored all name and encodes in mongodb
