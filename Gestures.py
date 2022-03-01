@@ -5,9 +5,6 @@ import time
 import HandTrackingModule as htm
 from pynput.mouse import Button, Controller as mouseController
 from pynput.keyboard import Key, Controller as keyboardController
-from ctypes import cast, POINTER
-from comtypes import CLSCTX_ALL
-from pycaw.pycaw import AudioUtilities, IAudioEndpointVolume
 
 mouse = mouseController()
 keyboard = keyboardController()
